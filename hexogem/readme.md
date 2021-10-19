@@ -34,3 +34,7 @@ $ hexo generate --wiki
 $ python wikisync.py
 ```
 
+## GitHub Actions Example
+
+`workflow_example.yml` file is the example of GitHub Actions workflow.
+It automatically generates and deploys the site.
