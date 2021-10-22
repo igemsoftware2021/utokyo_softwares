@@ -38,3 +38,7 @@ $ python wikisync.py
 
 `workflow_example.yml` file is the example of GitHub Actions workflow.
 It automatically generates and deploys the site.
+
+## More Information
+
+For more information, please visit [Hexogem](https://2021.igem.org/Team:UTokyo/Software#Hexogem) section on our wiki.
