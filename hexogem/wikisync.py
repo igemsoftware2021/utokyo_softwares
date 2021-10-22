@@ -13,6 +13,8 @@ config = {
     'poster_mode': False
 }
 
+# Our version of html uploading function!
+# This supports MediaWiki Templates.
 def upload_html(html_files, browser, config, upload_map):
   for path in html_files.keys():
     file_object = html_files[path]
