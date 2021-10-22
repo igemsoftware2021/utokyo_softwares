@@ -113,6 +113,8 @@ files = sync.cache_files(upload_map, config)
 # * 9. Upload all assets and create a map
 uploaded_assets = sync.upload_and_write_assets(files['other'], browser, upload_map, config)
 
+# Our original implementation.
+# If files are in `/template` directory, then uploaded to Template:<Team Name>.
 for path in files['html'].keys():
     html_file = files['html'][path]
     if html_file._upload_path.startswith('/template/'):
